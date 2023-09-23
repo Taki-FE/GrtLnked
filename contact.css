@@ -1,0 +1,240 @@
+/* Main Styles */
+
+main {
+  display: flex;
+  width: 100%;
+  padding: 114px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#contact-section {
+  display: flex;
+  width: 100%;
+  padding: 0px 82px;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 228px;
+  position: relative;
+}
+
+#get-in-touch {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 82px;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 28px;
+  position: absolute;
+  left: 68px;
+  top: 53.5px;
+}
+
+h2 {
+  color: #D434FE;
+  font-family: Clash Display, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 42px;
+}
+
+#contact-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 42px;
+}
+
+#contact-information p {
+  color: #FFF;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#contact-address {
+  color: #FFF;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#share {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+#share p {
+  color: #D434FE;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#input-wrapper {
+  display: flex;
+  padding: 72px 88px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#inputs-and-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+#questions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+#questions h2 {
+  color: #D434FE;
+  font-family: Clash Display, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#form-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+input {
+  color: #FFF;
+  font-family: Montserrat, sans-serif;
+  width: 437px;
+  padding: 14px 0px 14px 28px;
+  border-radius: 4px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid #D434FE;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+textarea {
+  color: #FFF;
+  font-family: Montserrat, sans-serif;
+  width: 437px;
+  padding: 14px 0px 86px 28px;
+  border-radius: 4px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
+
+#submit-btn {
+  padding: 16px 0;
+  color: #FFF;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  padding: 16px 52px;
+  background: var(--gradient-color);
+  border-style: solid;
+  border-color: transparent;
+  border-width: 2px;
+  border-radius: 4px;
+  transition: ease-out 0.15s;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  opacity: 0.9;
+}
+
+#submit-btn:active {
+  border-color: var(--gradient-color3);
+  background: transparent;
+  border-width: 2px;
+  border-style: solid;
+  background-clip: border;
+  -webkit-background-clip: border;
+}
+
+#pi-star-contact {
+  width: 21px;
+  height: 25px;
+  position: absolute;
+  left: 81px;
+  top: -58px;
+  z-index: -10;
+}
+
+#p-star-contact {
+  width: 30px;
+  height: 36px;
+  position: absolute;
+  left: 546px;
+  bottom: 131px;
+  z-index: -10;
+}
+
+#g-star-contact {
+  width: 26px;
+  height: 32px;
+  position: absolute;
+  right: 122px;
+  top: -90px;
+  z-index: -10;
+}
+
+#w-star-contact {
+  width: 26px;
+  height: 32px;
+  position: absolute;
+  right: 5px;
+  bottom: -4px;
+  z-index: -10;
+}
+
+#outline1 {
+  width: 23px;
+  height: 28px;
+  position: absolute;
+  left: -4px;
+  top: 117px;
+  z-index: -10;
+}
+
+#outline2 {
+  width: 23px;
+  height: 28px;
+  position: absolute;
+  left: 448px;
+  top: 153px;
+  z-index: -10;
+}
+

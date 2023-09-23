@@ -1,0 +1,191 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* CSS RESET */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables */
+:root {
+  --background-color: #150E28;
+  --primary-color: #903AFF;
+  --secondary-color: #D434FE;
+  --gradient-color: linear-gradient(270deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  --gradient-color2: linear-gradient(90deg, var(--primary-color) 3.08%, #FF26B9 93.85%);
+  --gradient-color3: linear-gradient(#9a39ff, #FF26B9);
+  --text-color: #FFFFFF;
+  --divider-color: #FFFFFF2e;
+}
+
+/* Main Styles */
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  background: var(--background-color);
+  color: var(--text-color);
+  margin-top: 123px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 10;
+  backdrop-filter: blur(14px);
+}
+
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 100px 20px 100px;
+}
+
+#nav-links {
+  display: flex;
+  column-gap: 56px;
+}
+
+#nav-links a {
+  transition: ease-out 0.15s;
+}
+
+#nav-links a:hover,
+#nav-links a:active {
+  background-image: var(--gradient-color2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#menu-items {
+  width: 713.219px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#register-btn {
+  padding: 16px 52px;
+  background: var(--gradient-color);
+  border-style: solid;
+  border-color: transparent;
+  border-width: 2px;
+  border-radius: 4px;
+  transition: ease-out 0.15s;
+}
+
+#register-btn:hover {
+  opacity: 0.9;
+}
+
+#register-btn:active {
+  border-color: var(--gradient-color3);
+  background: transparent;
+  border-width: 2px;
+  border-style: solid;
+  background-clip: border;
+  -webkit-background-clip: border;
+}
+
+header #divider {
+  position: absolute;
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--divider-color);
+}
+
+/* Flare Styles */
+[id^='one'],
+[id^='two'],
+[id^='three'],
+[id^='four'],
+[id^='five'],
+[id^='six'],
+[id^='seven'],
+[id^='eight'],
+[id^='nine'],
+[id^='ten'],
+[id^='eleven'],
+[id^='twelve'] {
+  position: absolute;
+  background-blend-mode: hard-light;
+}
+
+#one {
+  width: 1086px;
+  height: 836px;
+}
+
+#two {
+  width: 951px;
+  height: 994px;
+  right: -18px;
+  top: -1px;
+}
+
+#three {
+  right: 0px;
+  top: 150px;
+  width: 1164px;
+  height: 801px;
+  background-blend-mode: luminosity;
+}
+
+#four {
+  left: -30px;
+  top: 1315px;
+  width: 1037px;
+  height: 948px;
+}
+
+#five {
+  left: -141px;
+  top: 2379px;
+  width: 1037px;
+  height: 948px;
+}
+
+#six {
+  bottom: 2613.481px;
+  width: 1037px;
+  height: 948px;
+}
+
+#seven {
+  left: -200px;
+  bottom: 1763.481px;
+  width: 1037px;
+  height: 948px;
+}
+
+#eight {
+  right: 0px;
+ 
